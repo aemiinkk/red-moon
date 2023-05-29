@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    flex-direction: var(--dir); /* dir dediğim şey :root sınıfında tanımlı. Oradan bakabilirsin ne olduğunaa.*/
+    justify-content: center;
+    align-items: center;
+    background-color: var(--backColor);
+}
+
+div{
+    text-align: center;
+    height: 500px;
+    background-color: var(--cardColor);
+    color: var(--textColor);
+    margin: 50px;
+    padding: 100px 50px;
+    box-sizing: border-box;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
